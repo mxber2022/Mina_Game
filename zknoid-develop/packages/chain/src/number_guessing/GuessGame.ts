@@ -1,10 +1,5 @@
 import { RuntimeModule, runtimeModule } from '@proto-kit/module';
-import {
-  Field,
-  Poseidon,
-  PublicKey,
-  UInt64,
-} from 'o1js';
+import { Field, Poseidon, PublicKey, UInt64 } from 'o1js';
 
 import { state, runtimeMethod } from '@proto-kit/module';
 import { State, StateMap, assert } from '@proto-kit/protocol';
